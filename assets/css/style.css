@@ -1,1 +1,22 @@
+/* Added Glegoo google font */
 @import url('https://fonts.googleapis.com/css2?family=Glegoo&display=swap');
+
+/* added color palette reference from Coolors website
+CSS HEX
+--cadmium-red: #e30022ff;
+--cadmium-yellow: #fff600ff;
+--kelly-green: #4cbb17ff;
+--flickr-blue: #0063dcff;
+--orange-red: #ff681fff; */
+
+body {
+    font-family: 'Glegoo', serif;
+}
+/* add styling to main site title header */
+#site-title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: red;
+    float: left;
+    font-size: 280%;
+}
