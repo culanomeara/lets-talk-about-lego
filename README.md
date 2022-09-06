@@ -14,7 +14,7 @@ The website features a vertical scrolling 'timeline' presentation to match up wi
 
 - __Navigation Bar__
 
-  - Featured at top of the page, the full responsive navigation bar includes links to the Logo, Childhood section, Teen section and Adulthood sections to allow for easy navigation.
+  - Featured at top of the page, the full responsive navigation bar includes links to the Home page, Childhood section, Teen section, Adulthood sections and to Quiz page to allow for easy navigation.
   - This section will allow the user to easily navigate from section to section, page to apge across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
