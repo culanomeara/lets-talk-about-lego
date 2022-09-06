@@ -16,7 +16,19 @@ body {
 #site-title {
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: red;
+    color: #e30022ff;
     float: left;
-    font-size: 280%;
+    font-size: 270%;
+}
+
+#menu ul {
+    float:right;
+    font-size: 120%;
+    letter-spacing: 5px;
+}
+
+#menu li {
+    float:left;
+    margin-right: 20px;
+    list-style-type: none;
 }
