@@ -12,6 +12,7 @@ CSS HEX
 body {
     font-family: 'Glegoo', serif;
 }
+
 /* add styling to main site title header */
 #site-title {
     text-transform: uppercase;
@@ -33,6 +34,7 @@ body {
     float:left;
     margin-right: 20px;
     list-style-type: none;
+    
 }
 
 .page-header {
@@ -66,13 +68,14 @@ body {
   }
 
 .wrapper {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto;
+  grid-template-areas:
     "page-header page-header"
      "set-title set-title"
      "set-picture set-content"
-     "page-footer page-footer"
+     "page-footer page-footer";
   }
 
 .box {
@@ -84,13 +87,13 @@ body {
 
 .page-header {
   background-color: #999;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 .page-footer {
 
 }
 
-#site-title, #menu {
+ /* #site-title, #menu {
     display: inline-block;
-}
+} */
