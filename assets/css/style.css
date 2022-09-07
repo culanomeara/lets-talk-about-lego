@@ -32,3 +32,36 @@ body {
     margin-right: 20px;
     list-style-type: none;
 }
+
+.set-picture {
+    grid-area: set-picture;
+  }
+
+  .set-content {
+    grid-area: set-content;
+  }
+
+  .set-title {
+    grid-area: set-title;
+  }
+
+  .wrapper {
+    background-color: #fff;
+    color: #444;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+     "set-title set-title"
+     "set-picture set-content"
+  }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%; 
+  }

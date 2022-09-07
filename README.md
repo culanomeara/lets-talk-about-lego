@@ -117,6 +117,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 ### Content 
 
 - Text is all my own
+- Grid Layout code was inspired by [gridbyexample](https://gridbyexample.com/examples/example13/)
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - Color Palette is from [Coolors.co](https://coolors.co/e30022-fff600-4cbb17-0063dc-ff681f)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
