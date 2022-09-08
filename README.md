@@ -127,4 +127,4 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 ### Media
 
 - The background LEGO wallpaper images are from and open source site: https://wallpaperaccess.com/lego-bricks
-- The images used for the gallery page were taken from this other open source site 
+- The LEGO set images are from [Brickset](https://brickset.com/)
