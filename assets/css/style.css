@@ -13,44 +13,81 @@ body {
     font-family: 'Glegoo', serif;
 }
 
-/* add styling to main site title header */
-#site-title {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #e30022ff;
-    float: left;
-    font-size: 270%;
-    border: 1px solid black;
+/* add styling to main site title header and nav */
+
+#logo {
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
 }
 
-#menu ul {
-    float: right;
-    font-size: 120%;
-    letter-spacing: 5px;
-    border: 1px solid pink;
+#menu {
+  font-size: 120%;
+  letter-spacing: 4px;
+  text-align: center;
 }
 
 #menu li {
-    float:left;
-    margin-right: 20px;
-    list-style-type: none;
-    
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 30px 0 30px;
 }
 
-.page-header {
-    grid-area: page-header;
-  }
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image and cover text */
+
+#hero-outer {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#hero-image {
+  height: 400px;
+  width: 100%;
+  background: url('../images/mixedlego.jpg') no-repeat center center;
+  opacity: 0.4;
+}
+
+#cover-text {
+  color: #0063dcff;
+  font-size: 200%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  background-color: white;
+   padding: 0 20px 0 20px;
+
+  bottom: 100px;
+  left: 100px;
+
+  position: absolute;
+}
 
 .page-footer {
     grid-area: page-footer;
   }
 
-.set-picture {
+.set-picture-1 {
     grid-area: set-picture;
     border: 1px solid red;
   }
 
-.set-content {
+.set-content-1 {
     grid-area: set-content;
     color: #fff600ff;
     border: 1px solid blueviolet;
@@ -62,17 +99,17 @@ body {
     border: 1px solid green;
   }
 
-.wrapper {
+/*.wrapper {
     background-color: #fff;
     color: #444;
-  }
+  } */
 
 .wrapper {
+  padding-top: 100px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: auto;
   grid-template-areas:
-    "page-header page-header"
      "set-title set-title"
      "set-picture set-content"
      "page-footer page-footer";
