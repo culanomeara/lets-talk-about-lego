@@ -32,7 +32,7 @@ body {
   color: inherit;
 }
 
-a:hover {
+#menu a:hover {
   border: 2px solid #e30022ff;
   background-color: #fff600ff;
 }
