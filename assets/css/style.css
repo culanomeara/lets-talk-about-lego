@@ -15,10 +15,6 @@ body {
 
 /* add styling to main site title header and nav */
 
-#cover-text a:link {
-  text-decoration: none;
-}
-
 #menu {
   font-size: 140%;
   letter-spacing: 4px;
@@ -36,15 +32,17 @@ body {
   color: inherit;
 }
 
-#menu a:hover {
-  border-bottom: 1px solid #3a3a3a;
+a:hover {
+  border: 2px solid #e30022ff;
+  background-color: #fff600ff;
 }
 
-.active {
-  border-bottom: 1px solid #3a3a3a;
+a:active {
+  border: 2px solid #e30022ff;
+  background-color: #fff600ff;
 }
 
-/* hero image and cover text */
+/* hero image and site title */
 
 #hero-outer {
   height: 400px;
@@ -61,7 +59,7 @@ body {
   opacity: 0.4;
 }
 
-#cover-text {
+#site-title {
   color: #0063dcff;
   font-size: 200%;
   font-weight: bold;
@@ -76,6 +74,12 @@ body {
 
   position: absolute;
 }
+
+#site-title a:link {
+  text-decoration: none;
+}
+
+/* grid elements */
 
 .set-picture {
     grid-area: set-picture;
