@@ -67,7 +67,7 @@ a:active {
   letter-spacing: 4px;
 
   background-color: white;
-   padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 
   bottom: 100px;
   left: 100px;
@@ -88,7 +88,7 @@ a:active {
 
 .set-content {
     grid-area: set-content;
-    color: #fff600ff;
+    color: black;
     border: 1px solid blueviolet;
   }
 
@@ -103,10 +103,10 @@ a:active {
     color: #444;
   } */
 
-.wrapper {
-  padding-top: 100px;
+.box {
+  /* padding-top: 100px; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: auto;
   grid-template-areas:
      "set-title set-title"
@@ -114,13 +114,21 @@ a:active {
      "page-footer page-footer";
   }
 
-.box {
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px #4cbb17ff;;
+  }
+  
+  
+/* .box {
     color: black;
     border-radius: 5px;
     padding: 10px;
     font-size: 150%; 
-  }
-
- /* #site-title, #menu {
-    display: inline-block;
-} */
+  } */
