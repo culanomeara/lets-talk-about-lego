@@ -15,14 +15,12 @@ body {
 
 /* add styling to main site title header and nav */
 
-#logo {
-  float: left;
-  font-size: 280%;
-  margin-left: 30px;
+#cover-text a:link {
+  text-decoration: none;
 }
 
 #menu {
-  font-size: 120%;
+  font-size: 140%;
   letter-spacing: 4px;
   text-align: center;
 }
@@ -66,6 +64,7 @@ body {
 #cover-text {
   color: #0063dcff;
   font-size: 200%;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 4px;
 
@@ -78,16 +77,12 @@ body {
   position: absolute;
 }
 
-.page-footer {
-    grid-area: page-footer;
-  }
-
-.set-picture-1 {
+.set-picture {
     grid-area: set-picture;
     border: 1px solid red;
   }
 
-.set-content-1 {
+.set-content {
     grid-area: set-content;
     color: #fff600ff;
     border: 1px solid blueviolet;
@@ -121,15 +116,6 @@ body {
     padding: 10px;
     font-size: 150%; 
   }
-
-.page-header {
-  background-color: #999;
-  display: inline-block;
-}
-
-.page-footer {
-
-}
 
  /* #site-title, #menu {
     display: inline-block;
