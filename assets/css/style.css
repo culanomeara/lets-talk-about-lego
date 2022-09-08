@@ -89,13 +89,14 @@ a:active {
 .set-content {
     grid-area: set-content;
     color: black;
-    border: 1px solid blueviolet;
+    border: 1px solid red;
+    text-align: center;
   }
 
 .set-title {
     grid-area: set-title;
     text-align: center;
-    border: 1px solid green;
+    border: 3px solid green;
   }
 
 /*.wrapper {
@@ -106,19 +107,19 @@ a:active {
 .box {
   /* padding-top: 100px; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: auto;
+  row-gap: 5px;
   grid-template-areas:
      "set-title"
-     "set-content"
-     ;
+     "set-content";
   }
 
   img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 2px solid #ddd;
+    border-radius: 1px;
     padding: 5px;
-    width: 150px;
+    width: 250px;
   }
   
   img:hover {
@@ -126,9 +127,8 @@ a:active {
   }
   
   
-/* .box {
+.box {
     color: black;
     border-radius: 5px;
-    padding: 10px;
-    font-size: 150%; 
-  } */
+    padding: 10px; 
+  }
