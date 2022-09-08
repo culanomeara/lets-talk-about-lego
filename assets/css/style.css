@@ -109,7 +109,7 @@ a:active {
 .box {
   /* padding-top: 100px; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   grid-template-rows: auto;
   row-gap: 5px;
   grid-template-areas:
@@ -121,7 +121,7 @@ a:active {
     border: 2px solid #ddd;
     border-radius: 1px;
     padding: 5px;
-    width: 250px;
+    width: 300px;
   }
   
   img:hover {
@@ -130,7 +130,6 @@ a:active {
   
   
 .box {
-    color: black;
     border-radius: 5px;
     padding: 10px; 
   }
