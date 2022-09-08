@@ -81,16 +81,16 @@ a:active {
 
 /* grid elements */
 
-.set-picture {
+/* .set-picture {
     grid-area: set-picture;
     border: 1px solid red;
-  }
+  } */
 
 .set-content {
     grid-area: set-content;
     color: black;
     border: 1px solid red;
-    text-align: center;
+    text-align: justify;
   }
 
 .set-title {
@@ -107,7 +107,7 @@ a:active {
 .box {
   /* padding-top: 100px; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: auto;
   row-gap: 5px;
   grid-template-areas:
