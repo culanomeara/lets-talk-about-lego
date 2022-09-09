@@ -16,8 +16,8 @@ body {
 /* add styling to main site title header and nav */
 
 #menu {
-  font-size: 3vw;
-  letter-spacing: 2px;
+  font-size: 4vw;
+  letter-spacing: 4px;
   text-align: center;
 }
 
@@ -45,15 +45,16 @@ a:active {
 /* hero image and site title */
 
 #hero-outer {
-  height: 250px;
+  height: 400px;
   width: 100%;
-  padding-top: 2%;
+  padding-top: 5%;
   overflow: hidden;
+
   position: relative;
 }
 
 #hero-image {
-  height: 250px;
+  height: 400px;
   width: 100%;
   background: url('../images/mixedlego.jpg') no-repeat center center;
   opacity: 0.4;
@@ -65,10 +66,12 @@ a:active {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 4px;
-  margin: auto;
 
-  bottom: 10%;
-  left: 5%;
+  /*width: 90%;
+  height: 50%;*/
+
+  bottom: 10px;
+  left: 10px;
 
   position: absolute;
 }
