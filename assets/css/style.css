@@ -10,7 +10,7 @@ CSS HEX
 --orange-red: #ff681fff; */
 
 body {
-    font-family: 'Glegoo', serif;
+  font-family: 'Glegoo', serif;
 }
 
 /* add styling to main site title header and nav */
@@ -37,7 +37,8 @@ body {
   background-color: #fff600ff;
 }
 
-a:active {
+/* not working as intended? */
+#menu a:active {
   border: 2px solid #e30022ff;
   background-color: #fff600ff;
 }
@@ -80,62 +81,49 @@ a:active {
   text-decoration: none;
 }
 
-/* grid elements */
-
-/* .set-picture {
-    grid-area: set-picture;
-    border: 1px solid red;
-  } */
+/* Grid */
 
 .set-content {
-    grid-area: set-content;
-    border: 3px solid rgba(255, 246, 0, 1);
-    text-align: justify;
-    background-color: rgba(255, 246, 0, 0.2);
-  }
+  grid-area: set-content;
+  border: 3px solid rgba(255, 246, 0, 1);
+  text-align: justify;
+  background-color: rgba(255, 246, 0, 0.2);
+}
 
 .set-title {
-    grid-area: set-title;
-    text-align: center;
-    border: 3px solid rgba(0, 99, 220, 1);
-    background-color:rgba(0, 99, 220, 0.2);
-    
-  }
-
-/*.wrapper {
-    background-color: #fff;
-    color: #444;
-  } */
+  grid-area: set-title;
+  text-align: center;
+  border: 3px solid rgba(0, 99, 220, 1);
+  background-color: rgba(0, 99, 220, 0.2);
+}
 
 .box {
-  /* padding-top: 100px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: auto;
   row-gap: 5px;
   grid-template-areas:
-     "set-title"
-     "set-content";
-  }
+    "set-title"
+    "set-content";
+}
 
-  img {
-    border: 2px solid #ddd;
-    border-radius: 1px;
-    padding: 5px;
-    width: 250px;
-  }
-  
-  img:hover {
-    box-shadow: 0 0 2px 1px #4cbb17ff;;
-  }
-  
-  
+img {
+  border: 2px solid #ddd;
+  border-radius: 1px;
+  padding: 5px;
+  width: 250px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #4cbb17ff;
+}
+
 .box {
-    border-radius: 5px;
-    padding: 10px; 
-  }
+  border-radius: 5px;
+  padding: 10px;
+}
 
-  /* footer */
+/* footer */
 
 footer {
   height: 150px;
@@ -145,7 +133,7 @@ footer {
   text-align: center;
 }
 
-.social-links > li {
+.social-links>li {
   display: inline;
 }
 

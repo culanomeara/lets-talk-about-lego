@@ -118,6 +118,8 @@ The live link can be found here - https://culanomeara.github.io/lets-talk-about-
 - Text is all my own
 - Hero image and outer styling and concept inspired by [Code Institute-Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css)
 - Grid Layout code was inspired by [gridbyexample](https://gridbyexample.com/examples/example13/)
+- Thumbnail images and border style inspired by [Study Tonight](https://www.studytonight.com/css-howtos/how-to-create-a-thumbnail-image-with-css)
+- Survey page code was inspired by [Portuguese Wolf](https://codepen.io/PortugueseWolf/pen/axVgQj?editors=1100)
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - Color Palette is from [Coolors.co](https://coolors.co/e30022-fff600-4cbb17-0063dc-ff681f)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -125,5 +127,5 @@ The live link can be found here - https://culanomeara.github.io/lets-talk-about-
 
 ### Media
 
-- The background LEGO wallpaper images are from and open source site: https://wallpaperaccess.com/lego-bricks
+- The background LEGO wallpaper images are from [Wallpaperaccess](https://wallpaperaccess.com/lego-bricks)
 - The LEGO set images are from [Brickset](https://brickset.com/)
