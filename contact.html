@@ -32,33 +32,27 @@
         </a>
     </div>
 
-    <div class="wrapper">
-        <div class="box set-title">
-            <h1>Welcome</h1>
-        </div>
-        <div class="box set-content">
-
-            <figure>
-                <a target="_blank" href="assets/images/lego bugatti chiron.jpeg">
-                    <img src="assets/images/lego bugatti chiron.jpeg" alt="42083: Bugatti Chiron">
-                </a>
-                <figcaption>
-                    <h3>42083: Lego Technic Bugatti Chiron</h3>
-                </figcaption>
-            </figure>
-            <p>Hi. My name is Culan O'Meara and I'm a big LEGO fan. Now, you may well ask, what a middle-aged man is
-                doing playing with a toy? Well, here's the thing: LEGO is not just for kids. The LEGO compnay have
-                realised that making sets specifically for adults may not be such a bad idea. The set shown here, the
-                LEGO Technic Bugatti Chiron was a real groundbreaking set. It was huge with 3599 pieces. The box and
-                presentation was really luxurious and high-end(kind of what you'd expect if you bought an actual Bugatti
-                Chiron) <br><br>
-                <b>MY JOURNEY: </b>I invite you to travel with me through my life in LEGO ->Childhood ->Teens
-                ->Adulthood.
-            </p>
-        </div>
-        <!--div class="box set-content">Content 1
-            <br /> Text about set 1 goes here</div-->
-    </div>
+    <!--Sign up form-->
+    <section class="form_section">
+        <form action="https://formdump.codeinstitute.net/" method="post" class="signup_form">
+            <h2>Come join our LEGO fan community in Galway!</h2>
+            <label for="fname">First Name: </label>
+            <input type="text" class="user_input" id="fname" name="first_name" required><br>
+            <label for="lname">Last Name: </label>
+            <input type="text" class="user_input" id="lname" name="last_name" required><br>
+            <label for="email">Email Address: </label>
+            <input type="email" class="user_input" id="email" name="email_address" required><br>
+            <p>Please indicate where your interest in LEGO relates to: </p>
+            <label for="sets">LEGO sets</label>
+            <input type="radio" id="sets" name="query_area" value="sets" required>
+            <label for="investment">Investment</label>
+            <input type="radio" id="investment" name="query_area" value="investment" required>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="query_area" value="other" required><br>
+            <textarea class="query_entry" name="query_entry" rows="4"></textarea><br>
+            <input class="send_button" type="submit" value="Submit">
+        </form>
+    </section>
     <script>
         /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
         function myFunction() {

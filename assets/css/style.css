@@ -123,6 +123,62 @@ img:hover {
   padding: 10px;
 }
 
+/* Form */
+
+.form_section {
+  clear: left;
+  background: url("/assets/images/greenlego.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60rem;
+}
+
+.signup_form {
+  margin: 150px 10% 0 0;
+  color: #fff;
+  background-color: rgba(76, 187, 23, 0.7);
+  max-width: 400px;
+  position: absolute;
+  left: 20%;
+  padding: 30px;
+  font-weight: bolder;
+}
+
+.signup_form > h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.user_input, .query_entry {
+  width: 100%;
+  margin: 5px 0 5px 0;
+  border: 1px solid #fff600ff;
+  border-radius: 1px;
+}
+
+.user_input {
+  height: 25px;
+}
+
+.user_input:hover, .query_entry:hover {
+  border-color: #e30022ff;
+}
+
+.send_button {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #0063dcff;
+  color: #fafafa;
+  display: block;
+}
+
+.send_button:hover {
+  background-color: #fafafa;
+  color: #ff681fff;
+}
+
 /* footer */
 
 footer {
@@ -143,6 +199,8 @@ i {
   margin: 2%;
   padding: 2%;
 }
+
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
