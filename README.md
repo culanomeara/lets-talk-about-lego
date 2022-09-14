@@ -69,11 +69,11 @@ In addition, you may also use this section to discuss plans for additional featu
 ## Testing 
 
 - I have tested this site in variour browsers: Chrome, Safari and Firefox.
-- I have tested the site to ensure that it is responsive and maintains it's structure and integrity with various screen sizes and devices.
-- I have confirmed with users that the text is easy to read adn the navigation menu easy to use.
+- I have tested the site to ensure that it is responsive and maintains it's structure and integrity with various screen sizes and devices.(mobile/tablet/laptop/dsektop)
+- I have confirmed with users that the text is easy to read and the navigation menu easy to use.
 - I have checked that the contact form works and ensured that required fields work as intended and that the form vaildates the input.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+![Lighthouse Accessiblity Test Score](assets/images/Lighthouse_accessibility_score.png)
 
 ### Validator Testing 
 
