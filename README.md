@@ -14,41 +14,42 @@ The website features a vertical scrolling 'timeline' presentation to match up wi
 
 - __Navigation Bar__
 
-  - Featured at top of the page, the full responsive navigation bar includes links to the Home page, Childhood section, Teen section, Adulthood sections and to Quiz page to allow for easy navigation.
-  - This section will allow the user to easily navigate from section to section, page to apge across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured at top of the page, the full responsive navigation bar includes links to the Home page, Childhood section, Teen section, Adulthood sections and to Contact page to allow for easy navigation.
+  - This section will allow the user to easily navigate from section to section, page to apge across all devices without having to revert back to the previous page via the ‘back’ button.
+  - When screens get below 600px,the nav bar will collapse into a hamburger menu(expcet for HOME link). If clicked, the hamburger will give the user the nav menu vertically to avoid display issues and be more user-friendly. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
+- __The banner__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Let's Talk About Lego with an eye catching animation to grab their attention
+  - The banner includes a photograph with site title to allow the user to see exactly what this site is about and who it would would be applicable to.
+  - The background image is colourful and eye-catching. It has been styled to have some opacity so as not to overpower the user.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Banner](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __Childhood section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The Childhood section will allow the user to find out about the 3 sets that I found memorable during my childhood. 
+  - The idea of this is to bring some nostalgia and pique the users interest in LEGO and want to find out mnore
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Childhood Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __Teens section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The Teens section will allow the user to find out about the 3 sets that I found memorable during my teenage years. 
+  - The idea of this is to bmove the use through this period and see how my interests(and possibly theirs) changes over time.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Teens Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __Adulthood section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date.
+  - The Adulthood section will allow the user to find out about the 3 sets that I found memorable during my current phase of life: Adulthood. 
+  - The idea of this is to bring us right up-to-date with LEGO sets and show the diversity of sets that exist out there and to hook them into following my passion of LEGO
 
-- __Form/Quiz page__
+- __Contact page__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This page gives the user the opportunity to contact me and ask a question about LEGO. They will enter their first name, last name, email, and a question if they choose.
+  ![Contact Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 - __The Footer__ 
 
@@ -56,19 +57,6 @@ The website features a vertical scrolling 'timeline' presentation to match up wi
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
