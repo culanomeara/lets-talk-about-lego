@@ -127,7 +127,7 @@ img:hover {
 
 .form_section {
   clear: left;
-  background: url("../images/greenlego.webp");
+  background: url('../images/greenlego.webp');
   background-size: cover;
   background-position: center;
   height: 60rem;
