@@ -3,14 +3,18 @@
 
 /* added color palette reference from Coolors website
 CSS HEX
---cadmium-red: #e30022ff;
---cadmium-yellow: #fff600ff;
---kelly-green: #4cbb17ff;
---flickr-blue: #0063dcff;
---orange-red: #ff681fff; */
+--cadmium-red: #e30022ff; rgba(227, 0, 34, 1)
+--cadmium-yellow: #fff600ff; rgba(255, 246, 0, 1)
+--kelly-green: #4cbb17ff; rgba(76, 187, 23, 1)
+--flickr-blue: #0063dcff; rgba(0, 99, 220, 1)
+--orange-red: #ff681fff; rgba(255, 104, 31, 1) */
 
 body {
   font-family: 'Glegoo', serif;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 /* add styling to main site title header and nav */
@@ -82,18 +86,32 @@ body {
 
 /* Grid */
 
-.set-content {
+.page-title {
+  grid-area: page-title;
+  text-align: center;
+  border: 3px solid rgba(0, 99, 220, 1);
+  background-color: rgba(0, 99, 220, 0.2);
+}
+
+#set1 {
   grid-area: set-content;
   border: 3px solid rgba(255, 246, 0, 1);
   text-align: justify;
   background-color: rgba(255, 246, 0, 0.2);
 }
 
-.set-title {
-  grid-area: set-title;
-  text-align: center;
-  border: 3px solid rgba(0, 99, 220, 1);
-  background-color: rgba(0, 99, 220, 0.2);
+#set2 {
+  grid-area: set-content;
+  border: 3px solid rgba(255, 104, 31, 1);
+  text-align: justify;
+  background-color: rgba(255, 104, 31, 0.2);
+}
+
+#set3 {
+  grid-area: set-content;
+  border: 3px solid rgba(76, 187, 23, 1);
+  text-align: justify;
+  background-color: rgba(76, 187, 23, 0.2);
 }
 
 .box {
@@ -102,7 +120,7 @@ body {
   grid-template-rows: auto;
   row-gap: 5px;
   grid-template-areas:
-    "set-title"
+    "page-title"
     "set-content";
 }
 
@@ -119,8 +137,7 @@ img:hover {
 }
 
 .box {
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 2px;
 }
 
 /* Form */
