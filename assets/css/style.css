@@ -127,7 +127,7 @@ img:hover {
 
 .form_section {
   clear: left;
-  background: url("assets/images/greenlego.jpg");
+  background: url("../images/greenlego.jpg");
   background-size: cover;
   background-position: center;
   height: 60rem;
