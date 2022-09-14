@@ -59,7 +59,7 @@ body {
 #hero-image {
   height: 10rem;
   width: 100%;
-  background: url('../images/mixedlego.jpg') no-repeat center center;
+  background: url('../images/mixedlego.webp') no-repeat center center;
   opacity: 0.4;
 }
 
@@ -127,7 +127,7 @@ img:hover {
 
 .form_section {
   clear: left;
-  background: url("../images/greenlego.jpg");
+  background: url("../images/greenlego.webp");
   background-size: cover;
   background-position: center;
   height: 60rem;
