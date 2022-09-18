@@ -124,6 +124,16 @@ h2 {
     "set-content";
 }
 
+.form-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  row-gap: 5px;
+  grid-template-areas:
+    "page-title"
+    "contact-form";
+}
+
 /* image styling */
 img {
   border: 2px solid #ddd;
@@ -140,34 +150,20 @@ img:hover {
   border-radius: 2px;
 }
 
-/* Form */
+/* Contact Form */
 
-.form_section {
-  clear: left;
-  background: url('../images/greenlego.webp');
-  background-size: cover;
-  background-position: center;
-  height: 60rem;
-}
-
-.signup_form {
-  margin: 150px 10% 0 0;
-  color: #fff;
-  background-color: rgba(76, 187, 23, 0.7);
-  max-width: 400px;
-  position: absolute;
-  left: 20%;
+.contact-form {
+  grid-area: contact-form;
+  border: 3px solid rgba(76, 187, 23, 1);
+  text-align: left;
+  background-color: rgba(76, 187, 23, 0.2);
+  max-width: 500px;
   padding: 30px;
-  font-weight: bolder;
-}
-
-.signup_form > h2 {
-  color: #fafafa;
-  margin-bottom: 20px;
+  position: relative;
 }
 
 .user_input, .query_entry {
-  width: 100%;
+  width: 90%;
   margin: 5px 0 5px 0;
   border: 1px solid #fff600ff;
   border-radius: 1px;
