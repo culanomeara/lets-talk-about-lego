@@ -119,6 +119,7 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: auto;
   row-gap: 5px;
+  border-radius: 2px;
   grid-template-areas:
     "page-title"
     "set-content";
@@ -144,10 +145,6 @@ img {
 
 img:hover {
   box-shadow: 0 0 2px 1px #4cbb17ff;
-}
-
-.box {
-  border-radius: 2px;
 }
 
 /* Contact Form */
@@ -176,7 +173,7 @@ img:hover {
 .user_input:hover, .query_entry:hover {
   border-color: #e30022ff;
 }
-
+/* Submit Button */
 .send_button {
   margin-top: 10px;
   padding: 10px;
