@@ -113,7 +113,7 @@ h2 {
   text-align: justify;
   background-color: rgba(76, 187, 23, 0.2);
 }
-
+/* grid outer box styling */
 .box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -123,16 +123,6 @@ h2 {
   grid-template-areas:
     "page-title"
     "set-content";
-}
-
-.form-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: auto;
-  row-gap: 5px;
-  grid-template-areas:
-    "page-title"
-    "contact-form";
 }
 
 /* image styling */
@@ -147,6 +137,18 @@ img:hover {
   box-shadow: 0 0 2px 1px #4cbb17ff;
 }
 
+/* grid outer box styling specfic to contact page form */
+
+.form-section {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: auto;
+  row-gap: 5px;
+  grid-template-areas:
+    "page-title page-title page-title"
+    " . contact-form . ";
+}
+
 /* Contact Form */
 
 .contact-form {
@@ -154,11 +156,10 @@ img:hover {
   border: 3px solid rgba(76, 187, 23, 1);
   text-align: left;
   background-color: rgba(76, 187, 23, 0.2);
-  max-width: 500px;
   padding: 30px;
-  position: relative;
 }
 
+/* style for contact form user inputs and text box entry */
 .user_input, .query_entry {
   width: 90%;
   margin: 5px 0 5px 0;
@@ -173,6 +174,7 @@ img:hover {
 .user_input:hover, .query_entry:hover {
   border-color: #e30022ff;
 }
+
 /* Submit Button */
 .send_button {
   margin-top: 10px;
@@ -204,6 +206,7 @@ footer {
   display: inline;
 }
 
+/* icon styling */
 i {
   font-size: 150%;
   margin: 2%;
