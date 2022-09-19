@@ -85,7 +85,13 @@ This site is for those that are curious about LEGO and specifically for those th
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fculanomeara.github.io%2Flets-talk-about-lego%2F)
+  - No errors were returned when passing through the official W3C Validator
+    - [Index](https://validator.w3.org/nu/?doc=https%3A%2F%2Fculanomeara.github.io%2Flets-talk-about-lego%2Findex.html)
+    - [Childhood](https://validator.w3.org/nu/?doc=https%3A%2F%2Fculanomeara.github.io%2Flets-talk-about-lego%2Fchildhood.html)
+    - [Teens](https://validator.w3.org/nu/?doc=https%3A%2F%2Fculanomeara.github.io%2Flets-talk-about-lego%2Fteens.html)
+    - [Adulthood](https://validator.w3.org/nu/?doc=https%3A%2F%2Fculanomeara.github.io%2Flets-talk-about-lego%2Fadulthood.html)
+    - [Contact](https://validator.w3.org/nu/?doc=https%3A%2F%2Fculanomeara.github.io%2Flets-talk-about-lego%2Fcontact.html)
+    
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fculanomeara.github.io%2Flets-talk-about-lego%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
