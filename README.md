@@ -71,11 +71,6 @@ This site is for those that are curious about LEGO and specifically for those th
 
 ![Footer](assets/images/footer.png)
 
-
-### Features Left to Implement
-
-- Another feature idea
-
 ## Testing 
 
 - I have tested this site in variour browsers: Chrome, Safari and Firefox.
