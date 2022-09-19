@@ -8,9 +8,11 @@ This site is for those that are curious about LEGO and specifically for those th
 
 ## Features 
 
-- The site has a clear title that gives the user an instant sense of what the website is about.
+- The site has a clear title that gives the user an instant sense of what the website is about: My life and love of LEGO.
 - The banner/hero iamge further reinforces the LEGO theme.
 - The font used is a block-type font that refelcts the building block: LEGO.
+- Each section: Childhood, Teens and Adulthood are separate pages that highlight the 3 most significant legos ets that i owned during that time period. The Contact page give the user an opportunity to join the LEGO fan club in Galway.
+- The social links to the LEGO group socials offers the user the opportunity to delve deeper into the world of LEGO.
 
 ### Existing Features
 
