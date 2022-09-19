@@ -8,6 +8,10 @@ This site is for those that are curious about LEGO and specifically for those th
 
 ## Features 
 
+- The site has a clear title that gives the user an instant sense of what the website is about.
+- The banner/hero iamge further reinforces the LEGO theme.
+- The font used is a block-type font that refelcts the building block: LEGO.
+
 ### Existing Features
 
 - __Navigation Bar__
@@ -88,9 +92,13 @@ This site is for those that are curious about LEGO and specifically for those th
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fculanomeara.github.io%2Flets-talk-about-lego%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Unfixed Bugs
+### Fixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- I had a number of bugs that I worked thru:
+  -- Errors with filepaths when deployed to github. this was resolved when i moved away from absolute filepaths.
+  -- When the screen was small, the nav menu got distorted. This was solved by introducing a hamburger menu feature(suggested by my mentor).
+  -- The site title was too large when the screen was small so i changed from px to relative width values.
+
 
 ## Deployment 
 
