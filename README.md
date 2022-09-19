@@ -4,11 +4,9 @@ This site is for those that are curious about LEGO and specifically for those th
 
 
 
-![Responsive Mockup](https://https://github.com/culanomeara/lets-talk-about-lego/tree/main/assets/images/amiresponsive.png)
+![Responsive Mockup](assets/images/amiresponsive.png)
 
 ## Features 
-
-The website features a vertical scrolling 'timeline' presentation to match up with the idea of telling a story of my life thru LEGO of which there are 3 parts: childhood, teens and adulthood(with kids). As it is one page plus a form/quiz page, the sections have navigations to scroll down to them within the single page.
 
 ### Existing Features
 
@@ -16,51 +14,59 @@ The website features a vertical scrolling 'timeline' presentation to match up wi
 
   - Featured at top of the page, the full responsive navigation bar includes links to the Home page, Childhood section, Teen section, Adulthood sections and to Contact page to allow for easy navigation.
   - This section will allow the user to easily navigate from section to section, page to apge across all devices without having to revert back to the previous page via the ‘back’ button.
-  - When screens get below 600px,the nav bar will collapse into a hamburger menu(expcet for HOME link). If clicked, the hamburger will give the user the nav menu vertically to avoid display issues and be more user-friendly. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/images/navmenu.png)
 
-- __The banner__
 
-  - The banner includes a photograph with site title to allow the user to see exactly what this site is about and who it would would be applicable to.
-  - The background image is colourful and eye-catching. It has been styled to have some opacity so as not to overpower the user.
+- __The Hamburger__
 
-![Banner](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+- When screens get below 600px,the nav bar will collapse into a hamburger menu(expcet for HOME link). If clicked, the hamburger will give the user the nav menu vertically to avoid display issues and be more user-friendly.
+
+![Hamburger Menu](assets/images/hamburgermenu.png)
+
+
+- When the user clicks on the hamburger it opens vertically.
+
+![Hamburger Menu Open](assets/images/hamburgeropen.png)
+
 
 - __Childhood section__
 
   - The Childhood section will allow the user to find out about the 3 sets that I found memorable during my childhood. 
   - The idea of this is to bring some nostalgia and pique the users interest in LEGO and want to find out mnore
 
-![Childhood Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Childhood Section](assets/images/childhood.png)
+
 
 - __Teens section__
 
   - The Teens section will allow the user to find out about the 3 sets that I found memorable during my teenage years. 
   - The idea of this is to bmove the use through this period and see how my interests(and possibly theirs) changes over time.
 
-![Teens Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Teens Section](assets/images/teens.png)
+
 
 - __Adulthood section__
 
   - The Adulthood section will allow the user to find out about the 3 sets that I found memorable during my current phase of life: Adulthood. 
   - The idea of this is to bring us right up-to-date with LEGO sets and show the diversity of sets that exist out there and to hook them into following my passion of LEGO
 
+
+![Adulthood Section](assets/images/adulthood.png)
+
 - __Contact page__
 
   - This page gives the user the opportunity to contact me and ask a question about LEGO. They will enter their first name, last name, email, and a question if they choose.
-  ![Contact Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+  ![Contact Page](assets/images/contact.png))
+
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Let's Talk About Lego. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for The LEGO Group. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media to the LEGO group.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/footer.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
