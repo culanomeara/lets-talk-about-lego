@@ -17,6 +17,10 @@ h2 {
   font-size: 20px;
 }
 
+p {
+  padding: 2%;
+}
+
 /* add styling to main site title header and nav */
 .topnav {
   background-color: white;
@@ -141,7 +145,7 @@ img:hover {
 
 .form-section {
   display: grid;
-  grid-template-columns: 15% 70% 15%;
+  grid-template-columns: 10% 80% 10%;
   grid-template-rows: auto;
   row-gap: 5px;
   grid-template-areas:
