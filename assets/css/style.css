@@ -58,14 +58,14 @@ p {
 /* hero outer, image and site title styling*/
 
 #hero-outer {
-  height: 10rem;
+  height: 11rem;
   width: 100%;
   padding-top: 0.5%;
   position: relative;
 }
 
 #hero-image {
-  height: 10rem;
+  height: 11rem;
   width: 100%;
   background: url('../images/mixedlego.webp') no-repeat center center;
   opacity: 0.4;
@@ -80,6 +80,7 @@ p {
   bottom: 5%;
   left: 25%;
   right: 25%;
+  top: 5%;
 
   position: absolute;
 }
