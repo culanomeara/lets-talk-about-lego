@@ -1,6 +1,6 @@
 # Let's Talk About Lego
 
-This site is for those that are curious about LEGO and specifically for those that are curious about why a middle-aged man would love it so much. I will walk you through my life in LEGO. The site will give you a whistlestop tour of the most significant/memorable LEGO sets I own from childhood to now and hopfeully give you a sense of the lifelong appeal of LEGO. I hope you enjoy the journey...
+This site is for those that are curious about LEGO and specifically for those that are curious about why a middle-aged man would love it so much. I will walk you through my life in LEGO. The site will give the user a whistlestop tour of the most significant/memorable LEGO sets I own from childhood to now and hopefully give them a sense of the lifelong appeal of LEGO. Enjoy the journey...
 
 
 
@@ -9,9 +9,9 @@ This site is for those that are curious about LEGO and specifically for those th
 ## Features 
 
 - The site has a clear title that gives the user an instant sense of what the website is about: My life and love of LEGO.
-- The banner/hero iamge further reinforces the LEGO theme.
-- The font used is a block-type font that refelcts the building block: LEGO.
-- Each section: Childhood, Teens and Adulthood are separate pages that highlight the 3 most significant legos ets that i owned during that time period. The Contact page give the user an opportunity to join the LEGO fan club in Galway.
+- The banner/hero image further reinforces the LEGO theme.
+- The font used is a block-type font that reflects the building block: LEGO.
+- Each section: Childhood, Teens and Adulthood are separate pages that highlight the 3 most significant lego sets that I owned during that time period. The Contact page give the user an opportunity to join the LEGO fan club in Galway.
 - The social links to the LEGO group socials offers the user the opportunity to delve deeper into the world of LEGO.
 
 ### Existing Features
@@ -19,14 +19,14 @@ This site is for those that are curious about LEGO and specifically for those th
 - __Navigation Bar__
 
   - Featured at top of the page, the full responsive navigation bar includes links to the Home page, Childhood section, Teen section, Adulthood sections and to Contact page to allow for easy navigation.
-  - This section will allow the user to easily navigate from section to section, page to apge across all devices without having to revert back to the previous page via the ‘back’ button.
+  - This section will allow the user to easily navigate from section to section, page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 ![Nav Bar](assets/images/navmenu.png)
 
 
 - __The Hamburger__
 
-- When screens get below 600px,the nav bar will collapse into a hamburger menu(expcet for HOME link). If clicked, the hamburger will give the user the nav menu vertically to avoid display issues and be more user-friendly.
+- When screens get below 600px, the nav bar will collapse into a hamburger menu(except for HOME link). If clicked, the hamburger will give the user the nav menu vertically to avoid display issues and be more user-friendly.
 
 ![Hamburger Menu](assets/images/hamburgermenu.png)
 
@@ -39,7 +39,7 @@ This site is for those that are curious about LEGO and specifically for those th
 - __Childhood section__
 
   - The Childhood section will allow the user to find out about the 3 sets that I found memorable during my childhood. 
-  - The idea of this is to bring some nostalgia and pique the users interest in LEGO and want to find out mnore
+  - The idea of this is to bring some nostalgia and pique the users interest in LEGO and want to find out more
 
 ![Childhood Section](assets/images/childhood.png)
 
@@ -47,7 +47,7 @@ This site is for those that are curious about LEGO and specifically for those th
 - __Teens section__
 
   - The Teens section will allow the user to find out about the 3 sets that I found memorable during my teenage years. 
-  - The idea of this is to bmove the use through this period and see how my interests(and possibly theirs) changes over time.
+  - The idea of this is to move the use through this period and see how my interests(and possibly theirs) changes over time.
 
 ![Teens Section](assets/images/teens.png)
 
@@ -75,12 +75,12 @@ This site is for those that are curious about LEGO and specifically for those th
 
 ## Testing 
 
-- I have tested this site in variour browsers: Chrome, Safari and Firefox.
-- I have tested the site to ensure that it is responsive and maintains it's structure and integrity with various screen sizes and devices.(mobile/tablet/laptop/dsektop)
+- I have tested this site in various browsers: Chrome, Safari and Firefox.
+- I have tested the site to ensure that it is responsive and maintains it's structure and integrity with various screen sizes and devices.(mobile/tablet/laptop/desktop)
 - I have confirmed with users that the text is easy to read and the navigation menu easy to use.
-- I have checked that the contact form works and ensured that required fields work as intended and that the form vaildates the input.
+- I have checked that the contact form works and ensured that required fields work as intended and that the form validates the input.
 
-![Lighthouse Accessiblity Test Score](assets/images/Lighthouse_accessibility_score.png)
+![Lighthouse Accessibility Test Score](assets/images/Lighthouse_accessibility_score.png)
 
 ### Validator Testing 
 
@@ -116,7 +116,7 @@ The live link can be found here - https://culanomeara.github.io/lets-talk-about-
 - Hero image and outer styling and concept inspired by [Code Institute-Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css)
 - Grid Layout code was inspired by [gridbyexample](https://gridbyexample.com/examples/example13/)
 - Thumbnail images and border style inspired by [Study Tonight](https://www.studytonight.com/css-howtos/how-to-create-a-thumbnail-image-with-css)
-- Hambuurger menu [W3School](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+- Hamburger menu [W3School](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - Color Palette is from [Coolors.co](https://coolors.co/e30022-fff600-4cbb17-0063dc-ff681f)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
