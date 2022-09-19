@@ -92,9 +92,14 @@ This site is for those that are curious about LEGO and specifically for those th
 ### Fixed Bugs
 
 - I had a number of bugs that I worked thru:
-  - Errors with filepaths when deployed to github. this was resolved when i moved away from absolute filepaths.
+  - Errors with filepaths when deployed to Github. this was resolved when i moved away from absolute filepaths.
   - When the screen was small, the nav menu got distorted. This was solved by introducing a hamburger menu feature(suggested by my mentor).
   - The site title was too large when the screen was small so i changed from px to relative width values.
+  - Many typos in readme.md
+  - Text sitting too close to right side of screen. Added padding to paragraphs.
+  - Hamburger menu text got too small on mobile screens. Adjusted text size.
+  - validation error with stray script outside body. moved it inside.
+  - vaildation error with javascript having alt tag. Tag was removed.
 
 
 ## Deployment 
