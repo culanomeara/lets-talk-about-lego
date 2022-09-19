@@ -4,7 +4,7 @@ This site is for those that are curious about LEGO and specifically for those th
 
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://https://github.com/culanomeara/lets-talk-about-lego/tree/main/assets/images/amiresponsive.png)
 
 ## Features 
 
