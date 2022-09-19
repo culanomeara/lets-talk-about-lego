@@ -95,9 +95,9 @@ This site is for those that are curious about LEGO and specifically for those th
 ### Fixed Bugs
 
 - I had a number of bugs that I worked thru:
-  -- Errors with filepaths when deployed to github. this was resolved when i moved away from absolute filepaths.
-  -- When the screen was small, the nav menu got distorted. This was solved by introducing a hamburger menu feature(suggested by my mentor).
-  -- The site title was too large when the screen was small so i changed from px to relative width values.
+- Errors with filepaths when deployed to github. this was resolved when i moved away from absolute filepaths.
+- When the screen was small, the nav menu got distorted. This was solved by introducing a hamburger menu feature(suggested by my mentor).
+- The site title was too large when the screen was small so i changed from px to relative width values.
 
 
 ## Deployment 
