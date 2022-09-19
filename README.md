@@ -103,7 +103,22 @@ This site is for those that are curious about LEGO and specifically for those th
 
 
 ## Deployment 
+### Cloning and Forking
+- To CLONE: 
+  - Navigate to the repository: [Let's Talk About Lego](https://github.com/culanomeara/lets-talk-about-lego)
+  - Above the list of files, click Code.
+  - Copy the URL for the repository.
+  - Open Terminal and change to the new directory where you want the cloned files to go
+  - type git clone and paste in the copied url from the repository
 
+- To FORK:
+  - Navigate to the repository: [Let's Talk About Lego](https://github.com/culanomeara/lets-talk-about-lego)
+  - At top of page, click on FORK
+  - Select the owner, name and description for the new fork.
+  - Select which branches you want to fork.
+  - Create fork.
+
+### Remote
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, click on the Settings icon 
   - On the left-hand menu, click on Pages
