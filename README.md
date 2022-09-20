@@ -75,8 +75,16 @@ This site is for those that are curious about LEGO and specifically for those th
 
 ## Testing 
 
-- I have tested this site in various browsers: Chrome, Safari and Firefox.
-- I have tested the site to ensure that it is responsive and maintains it's structure and integrity with various screen sizes and devices.(mobile/tablet/laptop/desktop)
+- I have tested this site in various browsers:
+  - Chrome(my main wokring browser)
+  - [Safari](assets/images/safaritest.png)
+  - [Firefox](assets/images/firefoxtest.png).
+
+- I have tested the site to ensure that it is responsive and maintains it's structure and integrity with various screen sizes and devices other than my main working device(laptop):
+  - [mobile](assets/images/mobiletest.jpg)
+  - [tablet](assets/images/tablettest.jpg)
+  - [desktop](assets/images/desktoptest.png)
+
 - I have confirmed with users that the text is easy to read and the navigation menu easy to use.
 - I have checked that the contact form works and ensured that required fields work as intended and that the form validates the input.
 
